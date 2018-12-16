@@ -6,6 +6,9 @@ https://github.com/kanwei/algorithms
 .py
 https://github.com/keon/algorithms
 
+.go
+https://github.com/shady831213/algorithms
+
 ```ruby
 require 'rubygems'
 require 'algorithms'
