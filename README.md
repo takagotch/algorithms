@@ -26,10 +26,14 @@ if __name__ == "__main__":
   my_list = [1, 8, 3, 5, 6]
   my_list = merge_sort(my_list)
   print(my_list)
-
 ```
 
-```
+```go
+func (h *IntArray) Union(i interface{}) interface{} {
+  h.heapIntArrays = h.heapIntArrays.Union(&(i.(*IntArray).heatIntArrays)).(heapIntArrays)
+  h.heap.BuildHeap()
+  return h
+}
 
 ```
 
